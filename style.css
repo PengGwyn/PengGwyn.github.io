@@ -1,3 +1,4 @@
+@media only screen and (max-width: 2160px) {
 html body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0, 0.25)), url("Images/backgroundfinal.png");
     background-repeat: no-repeat;
@@ -115,3 +116,125 @@ html body {
     color: #11d843;
     transition-duration: 0.5s;
 }
+}
+
+@media only screen and (max-width: 1080px) {
+    html body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0, 0.25)), url("Images/backgroundfinal.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .head {
+        padding-top: 125px;
+        padding-left: 80px;
+        display: block;
+    }
+    
+    .head .headerimg {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+    }
+    
+    .head .headerimg .imgcode {
+        width: 78%;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 15px;
+    }
+    
+    .head .header {
+        margin-right: 45px;
+        margin-left: 3px;
+        padding-left: 0px;
+    }
+    
+    .headertitle {
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 35px;
+        font-style: bold;
+        color: black;
+        margin-bottom: 0px;
+        border-bottom: 3px solid white;
+        color: white;
+        text-shadow: 3px 4px 10px black;
+        width: 90%;
+    }
+    
+    .headersubtitle {
+        margin-top: 0px;
+        padding-top: 0px;
+        color: black;
+        font-size: 18px;
+        color: white;
+        color: white;
+        text-shadow: 3px 4px 10px black;
+    }
+    
+    .navigatorbutton {
+        display: flex;
+        float: right;
+        padding-top: 10px;
+        padding-right: 5px;
+    }
+    
+    .navbtn {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: 8px;
+        width: 130px;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 2px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+    
+    .navbtn:hover {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        color: #11d843;
+        transition-duration: 0.5s;
+    }
+    
+    .logo {
+        float: left;
+    }
+    
+    .logo .logoimg {
+        width: 80px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    
+    .header .contactmebtn {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: fit-content;
+        margin-right: 8px;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+    
+    .header .contactmebtn:hover {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        color: #11d843;
+        transition-duration: 0.5s;
+    }
+    }
