@@ -471,7 +471,7 @@ html body {
         }
         }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 540px) {
     html body {
         background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0, 0.25)), url("Images/backgroundfinal.png");
         background-repeat: no-repeat;
