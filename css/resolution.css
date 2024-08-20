@@ -1,0 +1,78 @@
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+  html {background: red;}
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  html {background: green;}
+}
+  */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* my huawei device */
+  /* html {background: blue;} */
+
+  img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .title {
+    font-size: 75px;
+  }
+
+  .subtitle {
+    font-size: 50px;
+  }
+
+  .cuteIntro .title {
+      margin-top: 5%;
+  }
+
+  
+  .cuteIntro .subtitle{
+    margin-top: 1px;
+  }
+
+  .cuteIntro .description {
+    margin: 0;
+    font-size: 25px;
+    width: 80%;
+  }
+
+  .info {
+    grid-template-columns: auto;
+  }
+
+  .skills {
+      margin-top: 10%;
+  }
+
+  .skillsContainer {
+      padding: 25px 130px;
+      width: 500px;
+  }
+
+  .skills h2 {
+    font-size: 55px;
+  }
+
+  .skillsContainer h3 {
+    font-size: 45px;
+  }
+
+  .skillsContainer li {
+    font-size: 35px;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  html {background: orange;}
+}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  html {background: pink;}
+} */

@@ -1,0 +1,66 @@
+html {
+    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(247, 114, 147); */
+}
+
+.containerMsain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuteIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+img {
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.cuteIntro .title {
+    margin-top: 5%;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.cuteIntro .subtitle{
+    color: white;
+}
+
+.cuteIntro .description {
+    color: white;
+    text-align: center;
+}
+
+.info {
+    display: grid;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skillsContainer {
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.list {
+    list-style-type: disc;
+}
+
+h2, ul, li, h3{
+    color: white;
+    margin: 0;
+}
+
+.footer {
+    margin-bottom: 10%;
+}

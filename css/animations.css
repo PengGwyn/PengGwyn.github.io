@@ -1,0 +1,83 @@
+@keyframes AnimateWelcomeMessage_OnClick {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-1000px);
+        display: none;
+    }
+}
+
+@keyframes AnimateSongContainer {
+    from {
+        opacity: 0;
+        transform: translateX(1000px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes AnimateGIF {
+    from {
+        opacity: 0;
+        transform: translateY(1000px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.animateWelcomeMessage_OnClick {
+    animation-name: AnimateWelcomeMessage_OnClick;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.animateSongContainer {
+    animation-name: AnimateSongContainer;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.animateGIF {
+    animation-name: AnimateGIF;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes AnimateSubtitle {
+    from {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes AnimateSubtitle_Hide {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.animateSubtitleOpacity_show {
+    animation-name: AnimateSubtitle;
+    animation-duration: 0.15s;
+    animation-fill-mode: forwards;
+}
+
+.animateSubtitleOpacity_hide {
+    animation-name: AnimateSubtitle_Hide;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+}
