@@ -73,6 +73,10 @@
   .skillsContainer li {
     font-size: 35px;
   }
+  
+  .footer {
+    margin-bottom: 10%;
+  }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -128,10 +132,14 @@
   .skillsContainer li {
     font-size: 15px;
   }
+
+  .footer {
+    margin-bottom: 5%;
+  }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1800px) {
+@media only screen and (min-width: 1700px) {
   /* my home pc */
   .cuteIntro {
     margin-top: 5%;
@@ -182,5 +190,9 @@
 
   .skillsContainer li {
     font-size: 23px;
+  }
+
+  .footer {
+    margin-bottom: 1%;
   }
 }
