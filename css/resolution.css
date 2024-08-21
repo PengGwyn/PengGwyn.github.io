@@ -26,11 +26,18 @@
     font-size: 50px;
   }
 
+  .cuteIntro {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .cuteIntro .title {
       margin-top: 5%;
       width: 100%;
   }
-
   
   .cuteIntro .subtitle{
     margin-top: 1px;
@@ -69,11 +76,111 @@
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {
-  html {background: orange;}
-}  */
+@media only screen and (min-width: 992px) {
+  .cuteIntro {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .textIntro {
+    margin-left: 1px;
+  }
+
+  .textIntro .title {
+    font-size: 50px;
+  }
+
+  .textIntro .subtitle {
+    font-size: 40px;
+  }
+
+  .textIntro .description {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .info {
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+  }
+
+
+  .skillsContainer {
+    padding: 25px 25px;
+    width: 300px;
+    height: 250px;
+  }
+
+  .skills h2 {
+    font-size: 28px;
+  }
+
+  .skillsContainer h3 {
+    font-size: 18px;
+  }
+
+  .skillsContainer li {
+    font-size: 15px;
+  }
+} 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {
-  html {background: pink;}
-} */
+@media only screen and (min-width: 1200px) {
+  /* my home pc */
+  .cuteIntro {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .textIntro {
+    margin-left: 55px;
+  }
+
+  .textIntro .title {
+    font-size: 80px;
+  }
+
+  .textIntro .subtitle {
+    font-size: 50px;
+  }
+
+  .textIntro .description {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .info {
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+  }
+
+  .skillsContainer {
+      padding: 25px 25px;
+      width: 500px;
+      height: 300px;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+
+  .skillsContainer h3 {
+    font-size: 28px;
+  }
+
+  .skillsContainer li {
+    font-size: 23px;
+  }
+}

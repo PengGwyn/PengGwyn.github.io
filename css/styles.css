@@ -10,12 +10,11 @@ html {
     align-items: center;
 }
 
-.cuteIntro {
+.cuteIntro .textIntro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
 }
 
 img {
@@ -31,12 +30,24 @@ img {
 }
 
 .cuteIntro .subtitle{
-    color: white;
+    color: black;
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50px;
 }
 
 .cuteIntro .description {
     color: white;
     text-align: center;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .info {
@@ -60,6 +71,10 @@ img {
 h2, ul, li, h3{
     color: white;
     margin: 0;
+}
+
+ul ul {
+    padding: 10px;
 }
 
 .footer {
